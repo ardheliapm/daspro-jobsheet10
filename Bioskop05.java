@@ -30,7 +30,7 @@ public class Bioskop05 {
         System.out.println("Jumlah Baris Adalah " + penonton.length);
 
         for (int i = 0; i < penonton[2].length; i++) {
-            System.out.println(penonton[2][i]);
+            System.out.println("Penonton pada baris ke-" + (i+1) + " : " + String.join("," ,  penonton[i]));
         }
 }
 }
